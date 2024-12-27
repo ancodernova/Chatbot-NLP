@@ -1,0 +1,260 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Howdy",
+        "What’s up?",
+        "Yo",
+        "Good day",
+        "Hi there",
+        "Greetings",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello",
+        "Hi",
+        "Hi there",
+        "Hey! How’s it going?",
+        "Good to see you!",
+        "Hey, how can I assist today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "Good night",
+        "See you soon"
+      ],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again",
+        "Goodbye, take care!",
+        "It was great talking to you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That’s helpful",
+        "I appreciate it",
+        "Thanks a lot",
+        "I’m grateful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure",
+        "You're most welcome!",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?",
+        "Tell me about yourself",
+        "What do you do?",
+        "What’s your purpose?"
+      ],
+      "responses": [
+        "I’m Rumi, your friendly AI assistant here to help you with any queries.",
+        "I’m Rumi, a chatbot designed to provide assistance and fun!",
+        "I’m Rumi, an AI designed to make your life easier. How can I assist today?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "Give me a hand please",
+        "Can you assist?",
+        "What can you do?",
+        "Help me out",
+        "I need support"
+      ],
+      "responses": [
+        "Tell me how I can assist you",
+        "How can I help today?",
+        "I’m here to help you with anything you need. What’s on your mind?"
+      ]
+    },
+    {
+      "tag": "preferences",
+      "patterns": [
+        "I like movies",
+        "I enjoy music",
+        "I love sports",
+        "I prefer travel destinations",
+        "I enjoy jokes"
+      ],
+      "responses": [
+        "Got it! I’ll remember your preferences and provide suggestions accordingly.",
+        "Noted! Let me know when you want a recommendation on one of those topics."
+      ]
+    },
+    {
+      "tag": "time_of_day",
+      "patterns": [
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How’s your day going?"
+      ],
+      "responses": [
+        "Good morning! How can I assist you today?",
+        "Good afternoon! What's on your mind today?",
+        "Good evening! How can I help you tonight?"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "I’m in [city name]",
+        "I live in [location]",
+        "I’m from [place]"
+      ],
+      "responses": [
+        "Great to know! I can provide localized recommendations. What can I help with today?",
+        "Nice! Feel free to ask if you need location-specific suggestions or services."
+      ]
+    },
+    {
+      "tag": "reminder",
+      "patterns": [
+        "Remind me to take a break",
+        "Set a reminder",
+        "Can you remind me?",
+        "I need a reminder",
+        "Set an alert for me"
+      ],
+      "responses": [
+        "I can't set reminders directly, but you can use your phone’s reminder app for that.",
+        "You can set reminders through your phone or calendar app. I can help you with the setup if needed."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Tell me about sports",
+        "What's the latest sports update?",
+        "Who's winning in sports?",
+        "Can you share sports news?"
+      ],
+      "responses": [
+        "I don’t have real-time sports updates. You can check a sports news app for the latest scores!",
+        "I’m not updated with live sports data, but you can follow your favorite sports team’s official website for updates."
+      ]
+    },
+    {
+      "tag": "movies",
+      "patterns": [
+        "Tell me a movie recommendation",
+        "What's a good movie to watch?",
+        "Recommend a movie",
+        "I want to watch a movie, give me suggestions"
+      ],
+      "responses": [
+        "You could check out ‘Inception’ if you like mind-bending thrillers.",
+        "If you like superhero films, try watching ‘The Avengers’!",
+        "For a classic movie, you can never go wrong with ‘The Shawshank Redemption’."
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Play me some music",
+        "Recommend a song",
+        "What’s a good song?",
+        "Give me a music suggestion"
+      ],
+      "responses": [
+        "If you like pop, try listening to 'Blinding Lights' by The Weeknd!",
+        "How about ‘Bohemian Rhapsody’ by Queen? It’s a classic!",
+        "If you're in the mood for relaxing tunes, check out ‘Weightless’ by Marconi Union."
+      ]
+    },
+    {
+      "tag": "travel",
+      "patterns": [
+        "Where should I go for a vacation?",
+        "Give me travel ideas",
+        "I want to travel, recommend a destination",
+        "Tell me about travel spots"
+      ],
+      "responses": [
+        "If you're looking for a tropical getaway, Bali is a great option!",
+        "How about visiting Paris? It's a beautiful city full of culture and history.",
+        "For an adventurous trip, try going to New Zealand – breathtaking landscapes!"
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "Give me a quote",
+        "Tell me something inspirational",
+        "Share a motivational quote",
+        "Can I have a quote?"
+      ],
+      "responses": [
+        "“Don’t watch the clock; do what it does. Keep going.” – Sam Levenson",
+        "“The best way to predict the future is to create it.” – Peter Drucker",
+        "“Do not go where the path may lead, go instead where there is no path and leave a trail.” – Ralph Waldo Emerson"
+      ]
+    },
+    {
+      "tag": "action",
+      "patterns": [
+        "Do a calculation for me",
+        "Can you calculate?",
+        "Perform a calculation",
+        "Do math for me",
+        "Can you solve this problem?"
+      ],
+      "responses": [
+        "Sure! What calculation would you like me to perform?",
+        "I can help with that. Just tell me the numbers, and I’ll do the math."
+      ]
+    },
+    {
+      "tag": "knowledge",
+      "patterns": [
+        "Tell me a fun fact",
+        "Give me a fun fact",
+        "Do you know any interesting facts?",
+        "Share something new with me"
+      ],
+      "responses": [
+        "Did you know? Honey never spoils! Archaeologists have found pots of honey in ancient tombs.",
+        "Did you know? A group of flamingos is called a ‘flamboyance’!",
+        "Here’s a fun fact: Octopuses have three hearts!"
+      ]
+    },
+    {
+      "tag": "faq",
+      "patterns": [
+        "What is your purpose?",
+        "Why are you here?",
+        "How do I use this service?",
+        "What can I do here?"
+      ],
+      "responses": [
+        "I’m here to help you with any queries, from recommendations to general knowledge and more!",
+        "I assist with everything from providing recommendations to helping with daily tasks. Just ask!"
+      ]
+    }
+  ]
+}
