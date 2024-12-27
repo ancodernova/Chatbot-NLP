@@ -46,11 +46,6 @@ This project implements an AI-powered chatbot using **TensorFlow**, **Natural La
    cd chatbot
    ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 3. Run the chatbot:
    ```bash
    python chatbot.py
